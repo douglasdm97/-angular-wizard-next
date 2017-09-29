@@ -28,7 +28,7 @@
     "email": "douglas@grupoartisan.com.br"
   },
   "bugs": {
-    "url": "https://github.com/douglasdm97/angular2-wizard/issues"
+    "url": "https://github.com/douglasdm97/-angular-wizard-next/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -70,7 +70,7 @@
   "engines": {
     "node": ">=0.8.0"
   },
-  "homepage": "https://github.com/douglasdm97/angular2-wizard#readme",
+  "homepage": "https://github.com/douglasdm97/-angular-wizard-next#readme",
   "keywords": [
     "angular2-wizard",
     "form-wizard",
@@ -84,7 +84,7 @@
   "name": "angular2-next-wizard",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/douglasdm97/angular2-wizard.git"
+    "url": "git+https://github.com/douglasdm97/-angular-wizard-next.git"
   },
   "scripts": {
     "build": "ngc -p tsconfig.json",
