@@ -1,0 +1,98 @@
+{
+  "_from": "angular2-next-wizard@0.0.5",
+  "_id": "angular2-next-wizard@0.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-CMyLZpLke1uqTaetma8TheCPJNaqzYFaas9s8xofOGCiT7JiVv9yvQjhwQ+n8GBH70bntM8B6gFMwbngyC3d3w==",
+  "_location": "/angular2-next-wizard",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "angular2-next-wizard@0.0.5",
+    "name": "angular2-next-wizard",
+    "escapedName": "angular2-next-wizard",
+    "rawSpec": "0.0.1",
+    "saveSpec": null,
+    "fetchSpec": "0.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular2-next-wizard/-/angular2-next-wizard-0.0.1.tgz",
+  "_shasum": "c010623464b685d668a6bb14c1932f5f9a33aad1",
+  "_spec": "angular2-next-wizard@0.0.1",
+  "_where": "C:\\bin\\nginx-1.13.1\\html\\next-process",
+  "author": {
+    "name": "Douglas Gabriel Cardoso",
+    "email": "douglas@grupoartisan.com.br"
+  },
+  "bugs": {
+    "url": "https://github.com/douglasdm97/angular2-wizard/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  },
+  "deprecated": false,
+  "description": "This is next Wizard.",
+  "devDependencies": {
+    "@angular/common": "^2.3.1",
+    "@angular/compiler": "^2.3.1",
+    "@angular/compiler-cli": "^2.3.1",
+    "@angular/core": "^2.3.1",
+    "@angular/platform-browser": "^2.3.1",
+    "@angular/platform-browser-dynamic": "^2.3.1",
+    "@angular/platform-server": "^2.3.1",
+    "@types/es6-shim": "^0.31.32",
+    "@types/jasmine": "^2.5.42",
+    "@types/selenium-webdriver": "^2.53.39",
+    "awesome-typescript-loader": "^3.0.4-rc.2",
+    "codelyzer": "^0.0.28",
+    "istanbul-instrumenter-loader": "^2.0.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.2",
+    "karma-remap-coverage": "^0.1.4",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.2",
+    "rxjs": "^5.0.1",
+    "source-map-loader": "^0.1.6",
+    "ts-helpers": "^1.1.2",
+    "tslint": "^3.15.1",
+    "typescript": "^2.1.6",
+    "webpack": "^2.2.1",
+    "zone.js": "0.7.2"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "homepage": "https://github.com/douglasdm97/angular2-wizard#readme",
+  "keywords": [
+    "angular2-wizard",
+    "form-wizard",
+    "wizard",
+    "wizard-step",
+    "angular2",
+    "angular2-component"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "angular2-next-wizard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasdm97/angular2-wizard.git"
+  },
+  "scripts": {
+    "build": "ngc -p tsconfig.json",
+    "lint": "tslint src/**/*.ts",
+    "prepublish": "",
+    "test": "karma start karma.conf.js",
+    "tsc": "tsc"
+  },
+  "version": "0.0.5"
+}
+

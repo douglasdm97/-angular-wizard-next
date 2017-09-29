@@ -1,0 +1,28 @@
+<div class="card">
+	<div class="acordions">
+		<div class="acordion" *ngFor="let step of steps" [ngClass]="{'active': step.isActive && !isCompleted, 'enabled': !step.isDisabled, 'disabled': step.isDisabled, 'completed': isCompleted}">
+			<div (click)="goToStep(step)" class="acordion-header">
+				<div class="row">
+					<div class="col-md-4">
+						<i class="ion" [ngClass]="{'ion-ios-checkmark-circle-outline': (!step.isDisabled && !step.isActive)||isCompleted, 'ion-ios-arrow-dropright': !((!step.isDisabled && !step.isActive)||isCompleted)}"></i>
+						{{step.title}}
+					</div>
+					<div class="col-md-8" style="font-size: 14px;" *ngIf="(!step.isDisabled && !step.isActive)||isCompleted">
+						<div *ngFor="let item of step.dados">
+							{{item.name}}:<b>{{item.value}}</b>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div *ngIf="step.isActive && !isCompleted" [@enterAnimation]>
+				<div class="acordion-content">
+					<ng-content></ng-content>
+				</div>
+				<div class="acordion-footer" [hidden]="isCompleted">
+					<button type="button" class="btn btn-success float-right" (click)="next()" [disabled]="!activeStep.isValid" [hidden]="!hasNextStep || !activeStep.showNext">Prosseguir</button>
+					<button type="button" class="btn btn-secondary float-right" (click)="complete()" [disabled]="!activeStep.isValid" [hidden]="hasNextStep">Done</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

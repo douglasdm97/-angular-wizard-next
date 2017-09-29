@@ -1,0 +1,39 @@
+.acordion {
+	&.active {
+		.acordion-header {
+			i.ion {
+				-ms-transform: rotate(90deg); /* IE 9 */
+				-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+				transform: rotate(90deg);
+			}	
+		}
+	} 
+	.acordion-header {
+		cursor: pointer;
+		padding: 20px 25px;
+	    // background: #f9f9f9;
+	    i.ion {
+	    	font-size: 24px;
+	    	float: left;
+	    	margin-top: 0px;
+	    	margin-right: 20px;
+	    	transition: 0.3s ease all;
+	    	&.ion-ios-checkmark-circle-outline {
+	    		color: #00b50f !important;
+	    	}	
+	    }
+	}
+	.acordion-content {
+		padding: 20px 25px;
+		overflow: hidden;
+	}
+	.acordion-footer {
+		button{
+			cursor: pointer;
+		}
+		// background: #f9f9f9;
+		display: inline-block;
+		padding: 20px 25px;
+	}
+	border-bottom: 1px solid #e0e0e0;
+}
